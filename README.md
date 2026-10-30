@@ -36,7 +36,7 @@ HeylandCircle is a lightweight, modular Python tool for constructing and analyzi
 HeylandCircle requires Python 3.10 or later. Clone the repository and create a virtual environment:
 
 ```bash
-git clone https://github.com/abruanspace/HeylandCircle.git
+git clone https://github.com/abruan-aerospace/HeylandCircle.git
 cd HeylandCircle
 python3 -m venv .venv
 ```
@@ -90,7 +90,7 @@ If you use HeylandCircle in academic work, please cite:
       url={https://arxiv.org/abs/2512.20015},
 }
 ```
-Citation metadata is also provided in [CITATION.cff](https://github.com/abruanspace/HeylandCircle/blob/main/CITATION.cff).
+Citation metadata is also provided in [CITATION.cff](https://github.com/abruan-aerospace/HeylandCircle/blob/main/CITATION.cff).
 
 ## References
 
