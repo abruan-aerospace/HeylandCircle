@@ -2,7 +2,7 @@
   <img src="docs/source/_static/heylandcircle_logo.svg"
        alt=""
        width="45"
-       style="vertical-align: -25px;" />
+       align="absmiddle" />
   HeylandCircle
 </h1>
 
@@ -13,7 +13,7 @@
 
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![GitHub release](https://img.shields.io/github/v/release/abruan-aerospace/HeylandCircle)](https://github.com/abruan-aerospace/HeylandCircle/releases)
+[![GitHub release](https://img.shields.io/github/v/release/abruan-aerospace/HeylandCircle?include_prereleases&sort=semver)](https://github.com/abruan-aerospace/HeylandCircle/releases)
 [![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://heylandcircle.readthedocs.io/en/latest)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2512.20015-b31b1b.svg)](https://arxiv.org/abs/2512.20015)
