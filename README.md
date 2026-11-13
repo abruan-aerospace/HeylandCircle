@@ -2,7 +2,7 @@
   <img src="docs/source/_static/heylandcircle_logo.svg"
        alt=""
        width="45"
-       style="vertical-align: -16px;" />
+       style="vertical-align: -25px;" />
   HeylandCircle
 </h1>
 
