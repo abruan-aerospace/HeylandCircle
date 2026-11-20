@@ -6,18 +6,18 @@
   HeylandCircle
 </h1>
 
-[![Tests](https://github.com/abruan-aerospace/HeylandCircle/actions/workflows/ci.yml/badge.svg)](https://github.com/abruanspace/HeylandCircle/actions)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abruanspace/HeylandCircle/main)
+[![CI](https://img.shields.io/github/actions/workflow/status/abruan-aerospace/HeylandCircle/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white)](https://github.com/abruan-aerospace/HeylandCircle/actions/workflows/ci.yml)
+[![Docs](https://img.shields.io/readthedocs/heylandcircle/latest?label=docs)](https://heylandcircle.readthedocs.io/en/latest)
+
+[![Release](https://img.shields.io/github/v/release/abruan-aerospace/HeylandCircle?sort=semver&logo=github)](https://github.com/abruan-aerospace/HeylandCircle/releases)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://www.repostatus.org/#active)
 
+[![arXiv](https://img.shields.io/badge/arXiv-2512.20015%20(software)-b31b1b.svg)](https://arxiv.org/abs/2512.20015)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.08302%20(theory)-b31b1b.svg)](https://arxiv.org/abs/2512.08302)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![GitHub release](https://img.shields.io/github/v/release/abruan-aerospace/HeylandCircle?include_prereleases&sort=semver)](https://github.com/abruan-aerospace/HeylandCircle/releases)
-[![Docs](https://img.shields.io/badge/docs-latest-blue.svg)](https://heylandcircle.readthedocs.io/en/latest)
-
-[![arXiv](https://img.shields.io/badge/arXiv-2512.20015-b31b1b.svg)](https://arxiv.org/abs/2512.20015)
-[![arXiv](https://img.shields.io/badge/arXiv-2512.08302-b31b1b.svg)](https://arxiv.org/abs/2512.08302)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abruan-aerospace/HeylandCircle/main)
 <br></br>
 
 HeylandCircle is a lightweight, modular Python tool for constructing and analyzing the circle diagram of three-phase induction machines, enabling rapid visualization of performance characteristics such as power factor, torque, current, and efficiency.
@@ -74,7 +74,7 @@ python examples/motor_circle_diagram.py
 
 Complete installation instructions, API documentation, theory, and examples are available in the HeylandCircle documentation.
 
-For release history, see [RELEASENOTES.md](https://github.com/abruanspace/HeylandCircle/blob/main/RELEASE_NOTES.md).
+For release history, see [RELEASE_NOTES.md](https://github.com/abruan-aerospace/HeylandCircle/blob/main/RELEASE_NOTES.md).
 
 ## Citation
 

@@ -10,7 +10,7 @@ Clone HeylandCircle and navigate to the project directory:
 
 .. code-block:: bash
 
-   git clone https://github.com/abruanspace/HeylandCircle.git
+   git clone https://github.com/abruan-aerospace/HeylandCircle.git
    cd HeylandCircle
 
 Create a virtual environment

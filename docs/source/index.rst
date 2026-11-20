@@ -39,7 +39,7 @@ geometric construction, and performance analysis.
 
    :Source:
       `GitHub repository
-      <https://github.com/abruanspace/HeylandCircle>`_
+      <https://github.com/abruan-aerospace/HeylandCircle>`_
 
    .. rubric:: Logo design
 
