@@ -19,11 +19,11 @@ authors:
     orcid: "https://orcid.org/0009-0006-8863-1457"
 
 repository-code: "https://github.com/abruan-aerospace/HeylandCircle"
-url: "https://github.com/abruanspace/HeylandCircle"
+url: "https://github.com/abruan-aerospace/HeylandCircle"
 
 license: MIT
 version: "0.2.0"
-date-released: 2026-09-11
+date-released: 2026-11-19
 
 abstract: >
   HeylandCircle is an open-source Python package for constructing and

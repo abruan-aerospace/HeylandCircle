@@ -6,8 +6,8 @@
   HeylandCircle
 </h1>
 
-[![Tests](https://github.com/abruan-aerospace/HeylandCircle/actions/workflows/ci.yml/badge.svg)](https://github.com/abruanspace/HeylandCircle/actions)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abruanspace/HeylandCircle/main)
+[![Tests](https://github.com/abruan-aerospace/HeylandCircle/actions/workflows/ci.yml/badge.svg)](https://github.com/abruan-aerospace/HeylandCircle/actions)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/abruan-aerospace/HeylandCircle/main)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)](https://www.repostatus.org/#active)
 
@@ -74,7 +74,7 @@ python examples/motor_circle_diagram.py
 
 Complete installation instructions, API documentation, theory, and examples are available in the HeylandCircle documentation.
 
-For release history, see [RELEASENOTES.md](https://github.com/abruanspace/HeylandCircle/blob/main/RELEASE_NOTES.md).
+For release history, see [RELEASE_NOTES.md](https://github.com/abruan-aerospace/HeylandCircle/blob/main/RELEASE_NOTES.md).
 
 ## Citation
 
