@@ -84,3 +84,34 @@ def test_scaled_quantities_exist(diagram):
 
     assert diagram.results.total_loss_kW is not None
     assert diagram.results.max_output_kW is not None
+
+
+# ------------------------------------------------------------------
+# Regression: repeated builds must not rescale the input data
+# ------------------------------------------------------------------
+
+def test_build_does_not_modify_input_data(sample_config, sample_data):
+    from heylandcircle.circle_diagram import CircleDiagram
+
+    sample_config.current_scale = 0.5
+    I_0, I_sc = sample_data.I_0, sample_data.I_sc
+    cd = CircleDiagram(sample_config, sample_data)
+    cd._build_geometry()
+    cd._build_geometry()
+
+    assert sample_data.I_0 == I_0
+    assert sample_data.I_sc == I_sc
+
+
+def test_repeated_builds_give_same_results(sample_config, sample_data):
+    from heylandcircle.circle_diagram import CircleDiagram
+
+    sample_config.current_scale = 0.5
+    cd = CircleDiagram(sample_config, sample_data)
+    cd._build_geometry()
+    cd._compute_results()
+    first = cd.results.max_output
+    cd._build_geometry()
+    cd._compute_results()
+
+    assert cd.results.max_output == pytest.approx(first)
