@@ -30,10 +30,8 @@ From the root directory of the HeylandCircle repository, run::
 
     python examples/motor_circle_diagram.py
 
-The script displays the generated circle diagram and prints a summary tablesummary of the
-calprincipal operating quantities to the terminal.
-
-terminal.
+The script displays the generated circle diagram and prints a summary table
+of the principal operating quantities to the terminal.
 
 Configuration
 -------------
